@@ -913,6 +913,7 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+/* 
 body {
   background-image: url("./images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
@@ -971,7 +972,7 @@ body {
 }
 
 .open .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translate(6px);
+  transform: rotate(45deg) translateY(6px) translate(6px);  
 }
 
 .open .hamburger-middle {
@@ -979,8 +980,8 @@ body {
 }
 
 .open .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translate(-6px);
-}
+  transform: rotate(-45deg) translateY(6px) translate(-6px);  
+} */
 
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
