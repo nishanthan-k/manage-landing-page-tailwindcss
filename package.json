@@ -1,0 +1,24 @@
+{
+  "name": "manage-landing-page-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/css/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishanthan-k/manage-landing-page-tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishanthan-k/manage-landing-page-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/nishanthan-k/manage-landing-page-tailwindcss#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
